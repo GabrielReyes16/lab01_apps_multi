@@ -1,0 +1,15 @@
+//Actividad
+void main(){
+  //1- Primer Hello World
+  print('Hola mundo desde Dart!');
+  
+ //2- Variables de tipo String
+  var nombre = 'Gabriel';
+  Object otronombre = 'Adri';
+  dynamic yabasta = 'Rael';
+ 
+  print(nombre);
+  print(otronombre);
+  print(yabasta);
+  
+}
