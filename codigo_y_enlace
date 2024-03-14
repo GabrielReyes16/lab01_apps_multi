@@ -3,13 +3,21 @@ void main(){
   //1- Primer Hello World
   print('Hola mundo desde Dart!');
   
- //2- Variables de tipo String
+ //2.1- Variables de tipo String
   var nombre = 'Gabriel';
   Object otronombre = 'Adri';
   dynamic yabasta = 'Rael';
- 
+  print("l--> Variables de tipo String <--l");
   print(nombre);
   print(otronombre);
   print(yabasta);
   
+  //2.2- Tipos de numero
+  var integer = 15;
+  Object double = 3.5;
+  print("l--> Tipos de Numero <--l");
+  print("Entero");
+  print(integer );
+  print("Decimal");
+  print(double);  
 }
